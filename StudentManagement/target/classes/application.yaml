@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/rbastuddb
+    password: Noeldias30$
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  security:
+    user:
+      name: apple
+      password: apple
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  servlet:
+    context-path: /StudentManagement
+  port: '8084'
